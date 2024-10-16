@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  background-color: #FFD9EC;
+}
+
+nav {
+  background-color: #FF69B4;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: #E4EEF1;
+}
+
+section {
+  display: flex;
+  width: 30vw;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+  font-size: 25px;
+}
+
+.logo {
+  align-items: center;
+  justify-content: start;
+}
+
+.yes {
+  display: flex;
+  width: 100vw;
+  padding: 50px;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 34.05px;
+}
+.yes p {
+  width: 60vw;
+}
+
+.hm {
+  display: flex;
+  width: 100vw;
+  padding: 50px;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 34.05px;
+  background-color: #FF69B4;
+  color: #E4EEF1;
+}
+.hm p {
+  width: 60vw;
+}
+
+.images {
+  width: 100vw;
+  align-items: center;
+  display: flex;
+  padding: 70px;
+}
+
+footer {
+  background-color: #FF69B4;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  flex-direction: column;
+  color: #E4EEF1;
+}
+
+.rosatubro {
+  justify-content: flex-end;
+}/*# sourceMappingURL=desafio.css.map */
